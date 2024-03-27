@@ -26,7 +26,7 @@ runs:
       env:
         MESSAGE: ${{ inputs.message }}
         CONSUMER_KEY: ${{ inputs.consumer-key }}
-        CONSUMER_KEY: ${{ inputs.consumer-secret }}
+        CONSUMER_SECRET: ${{ inputs.consumer-secret }}
         ACCESS_TOKEN: ${{ inputs.access-token }}
         ACCESS_SECRET: ${{ inputs.access-token-secret }}
 branding:
