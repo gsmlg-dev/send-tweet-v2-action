@@ -1,2 +1,2 @@
-# send-tweet-v2-action
-Send tweet message use V2 API
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.
