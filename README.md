@@ -22,7 +22,7 @@ Workflow:
 name: Send tweet
 on:
   schedule:
-    - cron: '0 0 * * *' # every 2 hours
+    - cron: '0 0 * * *' # every day at 00:00
   push:
     branches: [ main ]
 jobs:
