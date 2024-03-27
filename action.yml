@@ -5,7 +5,7 @@ inputs:
   message:
     description: The status ("tweet") to post to twitter.
     required: true
-  bearer_token:
+  bearer-token:
     description: Bearer Token
     required: true
   consumer-key:
@@ -32,7 +32,7 @@ runs:
       shell: bash
       env:
         MESSAGE: ${{ inputs.message }}
-        BEARER_TOKEN: ${{ inputs.bearer_token }}
+        BEARER_TOKEN: ${{ inputs.bearer-token }}
         CONSUMER_KEY: ${{ inputs.consumer-key }}
         CONSUMER_SECRET: ${{ inputs.consumer-secret }}
         ACCESS_TOKEN: ${{ inputs.access-token }}
