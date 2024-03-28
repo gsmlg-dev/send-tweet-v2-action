@@ -9,10 +9,10 @@ Post a tweet using V2 API to Twitter during a GitHub Actions workflow.
 | ------------------- | ---      | ------ | --------------- | ------------- |
 | message             | yes      | string |                 | tweet content
 | bearer-token        | yes      | string |                 | bearer-token
-| consumer-key        | yes      | string |                 | 
-| consumer-secret     | yes      | string |                 | 
-| access-token        | yes      | string |                 | 
-| access-token-secret | yes      | string |                 | 
+| consumer-key        | no       | string |                 | 
+| consumer-secret     | no       | string |                 | 
+| access-token        | no       | string |                 | 
+| access-token-secret | no       | string |                 | 
 
 ## Example usage
 
