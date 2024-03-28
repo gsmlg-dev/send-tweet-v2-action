@@ -28,7 +28,7 @@ runs:
   using: "composite"
   steps:
     - name: Send Tweet Message
-      run: exe/send-tweet-v2
+      run: bash -c "exe/send-tweet-v2"
       shell: bash
       env:
         MESSAGE: ${{ inputs.message }}
